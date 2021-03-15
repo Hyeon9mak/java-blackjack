@@ -56,7 +56,7 @@ public class BlackjackController {
             hitOrStayCurrentPlayer(blackjackManager);
             blackjackManager.passTurnToNextPlayer();
         }
-    }
+    } 
 
     private void hitOrStayCurrentPlayer(final BlackjackManager blackjackManager) {
         while (!blackjackManager.isFinishedCurrentPlayer()) {
